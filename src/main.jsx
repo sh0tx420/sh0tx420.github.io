@@ -2,12 +2,12 @@
 import { render } from "solid-js/web";
 import { Router } from "solid-app-router";
 
-import Home from "./pages/Home";
+import App from "./App";
 
 render(
     () => (
         <Router>
-            <Home />
+            <App />
         </Router>
     ),
     document.getElementById("root")
