@@ -1,34 +1,15 @@
 ## Usage
+`yarn dev`
+Opens up a Vite server to display the website.
 
-Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
+`yarn build`
+Compiles the JSX into a static website, for use in production web servers.
 
-This is the reason you see a `pnpm-lock.yaml`. That being said, any package manager will work. This file can be safely be removed once you clone a template.
+`yarn deploy`
+Deploys the project onto GitHub Pages.
 
-```bash
-$ npm install # or pnpm install or yarn install
-```
-
-### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm dev` or `npm start`
-
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-
-### `npm run build`
-
-Builds the app for production to the `dist` folder.<br>
-It correctly bundles Solid in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-## Deployment
-
-You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
+## To-do list
+- [ ] Utility category with various useful tools
+- [ ] Blog category/page with markdown documents (using a markdown to html converter thingy)
+- [ ] Functional search bar on the sidebar (using solid's For component and some keyword stuff)
+- [ ] "about me" in the home page, lol
