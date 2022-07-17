@@ -18,8 +18,8 @@ export default function Navbar() {
             "background-color": "#1C1E1F"
         }}>
             <div style="display: flex">
-                <h5>funny website</h5>
-                <NavButton text="allah"></NavButton>
+                <h5>sh0tx420.github.io</h5>
+                <NavButton text="Home"></NavButton>
             </div>
         </div>
     );
