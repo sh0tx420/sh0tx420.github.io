@@ -1,13 +1,13 @@
 // Import components
 import { Route, Routes } from "solid-app-router";
-import Sidebar from "./components/Sidebar";
+import Navbar from "./components/Navbar";
 
 // Import pages
 import Home from "./pages/Home";
 
 export default function App() {
     return <>
-        <Sidebar />
+        <Navbar />
 
         <Routes>
             <Route path="/" component={Home} />
