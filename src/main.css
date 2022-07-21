@@ -1,3 +1,14 @@
+/*
+* GLOBAL CSS FILE
+*/
+
+/* Tailwind directives */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Global CSS */
+html, body {
+    background-color: #262626;
+    color: white;
+}
