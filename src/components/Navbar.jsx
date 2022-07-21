@@ -1,26 +1,17 @@
-function NavButton(props) {
-    return (
-        <button style={{
-            "outline": "none",
-            "box-shadow": "none",
-            "width": "fit-content"
-        }}>
-            {props.text}
-        </button>
-    );
-}
-
 export default function Navbar() {
     return (
-        <div style={{
-            "width": "100%",
-            "height": "50px",
-            "background-color": "#1C1E1F"
-        }}>
-            <div style="display: flex">
-                <h5>sh0tx420.github.io</h5>
-                <NavButton text="Home"></NavButton>
+        <nav class="flex py-3 bg-gray-900">
+            <div class="px-6">
+                <div>
+                    <a class="text-xl font-bold text-white" href="#">sh0tx420.github.io</a>
+                    <button class="ml-3 h-10 bg-red-900 rounded-lg p-2">
+                        <a class="text-white" href="/">Home</a>
+                    </button>
+                    <button class="ml-3 h-10 bg-red-900 rounded-lg p-2">
+                        <a class="text-white" href="/blog">Blog</a>
+                    </button>
+                </div>
             </div>
-        </div>
+        </nav>
     );
 }
