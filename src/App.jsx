@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 
 // Import pages
 import Home from "./pages/Home";
+import Blog from "./pages/Blog";
 
 export default function App() {
     return <>
@@ -11,6 +12,7 @@ export default function App() {
 
         <Routes>
             <Route path="/" component={Home} />
+            <Route path="/blog" component={Blog} />
         </Routes>
     </>;
 }
