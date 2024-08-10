@@ -8,7 +8,7 @@ const navlinks = [
 export default function Navbar() {
     return (
         <nav className="w-full h-12 p-2">
-            <div className="flex bg-neutral-700/20 backdrop-filter backdrop-opacity-50 backdrop-blur-3xl p-2 rounded-md">
+            <div className="flex bg-neutral-700/20 backdrop-filter backdrop-opacity-50 backdrop-blur-3xl p-2 rounded-md shadow-lg">
                 <Link className="hover:text-indigo-500" href="/">
                     sh0tx420.github.io
                 </Link>
