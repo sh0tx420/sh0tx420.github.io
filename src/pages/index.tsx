@@ -19,20 +19,22 @@ export default function Home() {
     };
 
     return <>
-        <form onSubmit={handleFormSubmit} className="flex flex-col w-5/6 md:w-2/6 mx-auto p-12">
-            Search:
-            <div className="flex flex-row">
-                <input
-                    id="searchbar"
-                    type="text"
-                    className="bg-neutral-700 p-2 outline-none border-2 border-transparent focus:border-sky-600 rounded shadow-md"
-                    maxLength={4095}
-                />
-                <button type="submit" className="bg-sky-500 hover:bg-sky-300 w-10 min-w-10 ml-2 rounded shadow-md">
-                    🔍
-                </button>
-            </div>
-        </form>
+        <div className="flex flex-col items-center p-12">
+            <form onSubmit={handleFormSubmit}>
+                Search:
+                <div className="flex flex-row">
+                    <input
+                        id="searchbar"
+                        type="text"
+                        className="bg-neutral-700 p-2 outline-none border-2 border-transparent focus:border-sky-600 rounded shadow-md"
+                        maxLength={4095}
+                    />
+                    <button type="submit" className="bg-sky-500 hover:bg-sky-300 w-10 min-w-10 ml-2 rounded shadow-md">
+                        🔍
+                    </button>
+                </div>
+            </form>
+        </div>
         
         <div className="flex h-full">
             <br />
